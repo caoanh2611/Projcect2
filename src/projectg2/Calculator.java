@@ -49,7 +49,7 @@ public class Calculator extends JFrame {
     }
 
     private void calculateSubtraction() {
-        
+        performCalculation((a, b) -> a - b);
     }
 
     private void calculateMultiplication() {
