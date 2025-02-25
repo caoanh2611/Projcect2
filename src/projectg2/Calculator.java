@@ -53,6 +53,7 @@ public class Calculator extends JFrame {
     }
 
     private void calculateMultiplication() {
+        performCalculation((a, b) -> a * b);
         
     }
 
