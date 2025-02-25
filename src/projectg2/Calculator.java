@@ -57,7 +57,7 @@ public class Calculator extends JFrame {
     }
 
     private void calculateDivision() {
-        
+         performCalculation((a, b) -> b != 0 ? a / b : Double.NaN, "Không thể chia cho 0");
     }
 
     private void performCalculation(CalculatorFunction function) {
